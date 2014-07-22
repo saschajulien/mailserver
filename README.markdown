@@ -1,8 +1,8 @@
 # mailserver #
 
-master branch: [![Build Status](https://secure.travis-ci.org/mjhas/mailserver.png?branch=master)](http://travis-ci.org/mjhas/mailserver)
+master branch: [![Build Status](https://secure.travis-ci.org/saschajulien/mailserver.png?branch=master)](http://travis-ci.org/saschajulien/mailserver)
 
-This Module provides a mailserver with postfix as SMTP-Server and dovecot as IMAP Server with virtual configuration stored in a postgres database including virus scanning with clamav. Patches and Feature Requests are welcome and can be handed in at [Github](http://github.com/mjhas/). 
+This Module provides a mailserver with postfix as SMTP-Server and dovecot as IMAP Server with virtual configuration stored in a postgres database including virus scanning with clamav. Patches and Feature Requests are welcome and can be handed in at [Github](http://github.com/saschajulien/). 
 
 Dependencies:
 ============
