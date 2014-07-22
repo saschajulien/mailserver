@@ -1,6 +1,6 @@
 install:
-  - sudo apt-get update
-  - sudo apt-get install puppet libxml2-dev libreadline-dev augeas-lenses libaugeas-dev 
+  - sudo yum update
+  - sudo yum install puppet libxml2-dev libreadline-dev augeas-lenses libaugeas-dev 
 language: ruby
 bundler_args: --without development
 script: "sudo -E bash -c \"PATH=$PATH; echo $PATH && bundle install && bundle exec rake spec SPEC_OPTS='--format documentation'\""
