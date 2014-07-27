@@ -9,8 +9,8 @@ project_page 'https://github.com/saschajulien/mailserver.git'
 
 ## Add dependencies, if any:
 # dependency 'username/name', '>= 1.2.0'
-dependency 'mjhas-amavis', '0.0.2'
-dependency 'mjhas-clamav', '0.0.1'
-dependency 'mjhas-dovecot', '0.0.7'
-dependency 'mjhas-postfix', '0.0.6'
+dependency 'saschajulien-amavis', '0.0.2'
+dependency 'saschajulien-clamav', '0.0.1'
+dependency 'saschajulien-dovecot', '0.0.7'
+dependency 'saschajulien-postfix', '0.0.6'
 dependency 'puppetlabs-postgresql', '3.4.0'
